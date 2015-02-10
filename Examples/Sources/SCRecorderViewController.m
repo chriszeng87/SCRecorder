@@ -68,7 +68,7 @@
 
     _recorder = [SCRecorder recorder];
     _recorder.sessionPreset = [SCRecorderTools bestSessionPresetCompatibleWithAllDevices];
-    _recorder.maxRecordDuration = CMTimeMake(5, 1);
+    _recorder.maxRecordDuration = CMTimeMake(10, 1);
     
     _recorder.delegate = self;
     _recorder.autoSetVideoOrientation = YES;
